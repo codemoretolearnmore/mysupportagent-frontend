@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Center the upload container */
+.upload-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background: white;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;  /* Center horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center vertically */
+}
+
+/* File input (hidden) */
+.upload-container input {
+  display: none;
+}
+
+/* Style the label for click-to-upload */
+.upload-label {
+  display: block;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Upload button beside drag & drop area */
+.upload-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background-color: #0056b3;
+}
+
+.error-msg {
+  display: block;
+  font-size: 16px;
+  color: red
+}

@@ -1,0 +1,40 @@
+.search-filter-wrapper {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+/* Consistent styling for both search box & dropdown */
+.search-box,
+.filter-dropdown {
+  height: 36px;  /* Ensures equal height */
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+  background: #fff;
+}
+
+/* Specific width adjustments */
+.search-box {
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 36px;
+}
+
+.filter-dropdown {
+  width: 180px;
+  cursor: pointer;
+}
+
+/* Focus effect */
+.search-box:focus,
+.filter-dropdown:focus {
+  border-color: #007bff;
+}
